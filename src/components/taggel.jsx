@@ -9,7 +9,7 @@ export const Toggle = ({ label, toggled, onClick }) => {
     }
 
     return (
-        <section className='row align-items-center'>
+        <section className='row align-items-center mt-3'>
             <label className=''>
                 <input className='inp' type="checkbox" defaultChecked={isToggled} onClick={callback} />
                 <span   className='pan' />
