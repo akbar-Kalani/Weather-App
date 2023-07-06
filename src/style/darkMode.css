@@ -15,3 +15,17 @@
    /*  display: flex; */
     flex-wrap: wrap
   }
+
+  li{
+    list-style-type: none;
+  }
+
+   svg{
+    color: #441aec;
+    width: 50px;
+    height: 50px;
+   }
+
+    .svgColor{
+      color: #ecb425;
+    }
